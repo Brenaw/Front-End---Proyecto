@@ -1,28 +1,37 @@
-*{
-    margin:0px;
-    padding:0px;
-    font-family: Helvetica;;
-    color:rgb(41, 65, 77)
-}
-div#banner{
-    width:100%;
-    height: 240px;
-    background-color: rgb(0, 0, 0);
+*{ background-color: hsl(0, 0%, 0%); 
+    margin-left: 2px;
+    margin-top: 0%;
+   font-family: Helvetica;
+   color:rgb(41, 65, 77)   
+   
+    }
+
+   .list-group-item{
+    background-color: transparent;
+   }
     
+   *{
+    background-color: transparent;
+   }
+
+div#banner{    
+    background-color: rgb(0, 0, 0);
+    text-align: center;    
+
 }
 #img_banner{
-    display:block;
-    width:90%;
-    height:250px;
-    max-width: 688px;
-    min-width: 500px;
-    padding: 0px;
-    align-content: center;    
     
+    width: 10px;
+    height:250px;
+    max-width: 100px;
+    min-width: 100px;
+    padding: 0px;
+      text-align: center;    
 }
 
 body{
     background-color: black;
+    margin: 2px;
     
 }
 
@@ -31,13 +40,27 @@ h1 {
     text-align: center;
      }
 #container h3{
-    border: 1px solid #c533b2;
+    border: 1px solid #c533b2;    
     margin: 15px;     
-    
+    width: 400px;
+    text-align: center;
+    box-shadow: 2px 2px 7px 1px #37b0ce;
+    border-radius: 5px;
 }
 #bibi-battery-charging{
     font-weight: 50px;
-    vertical-align: inherit;
+    }
+    .card{        
+        background-color: black;
+        border: 2px solid rgb(79, 188, 255);
+        text-align: center;
+    }
+    .card-img-top{
+width: 200px;
+text-align: center;
+margin-left: 30px;  
 }
 
-
+div.class.card{
+    max-width: 30%;
+}
