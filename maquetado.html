@@ -13,9 +13,9 @@
 
 <body>
 
-<!--banner imagen programa-->
+<!--banner imgprograma-->
 <nav class="navbar navbar-expand-lg bg-dark">
-  <div class="container-fluid">
+  <div class="container">
     <a class="navbar-brand" href="#">
       <img src="assets/IMG/arg-programa.png" alt="" width="180" height="100">
     </a>        
@@ -23,13 +23,20 @@
     <ul class="list-group list-group-horizontal">
       <li class="list-group-item"><i class="fa-brands fa-instagram fa-2xl"></i></li>
       <li class="list-group-item"><i class="fa-brands fa-linkedin-in fa-xl"> </i></li>
-      <li class="list-group-item"> <i class="fa-brands fa-github fa-xl"></i>  </li>          
+      <li class="list-group-item"> <i class="fa-brands fa-github fa-xl"></i>  </li>  
+              
        <!-- Button trigger modal -->
        <li class="list-group-item">            
         <i class="fa-solid fa-user fa-xl" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">            
         </i>
-      </li>
+      </li>           
     </ul>
+
+
+
+
+
+    
     <!-- Modal banner redes-->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -67,12 +74,14 @@
  </div>
     
     <!-- foto gatito -->
+    <section>
 <div class="container text-center">
    
   <div class="row">
     <div class="col-3">
     <img src="assets/IMG/gatito2.jpg" class="rounded-circle" >
     </div>
+    <!--Titulo nombre-->
     <div class="col-6"><h1>Brenda Villavicencio <br />Fullstack Developer Jr <i class="bi bi-battery-charging"></i></div> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-battery-charging" viewBox="0 0 16 16">
         <path d="M9.585 2.568a.5.5 0 0 1 .226.58L8.677 6.832h1.99a.5.5 0 0 1 .364.843l-5.334 5.667a.5.5 0 0 1-.842-.49L5.99 9.167H4a.5.5 0 0 1-.364-.843l5.333-5.667a.5.5 0 0 1 .616-.09z"/>
         <path d="M2 4h4.332l-.94 1H2a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.38l-.308 1H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/>
@@ -82,45 +91,79 @@
     <div class="col-3"></div>
   </div>
 </div>
-<!--contenido medio-->
-    <section>
-    <div id="container">
-      <br> <h3>INFORMACION PROFESIONAL</h3> <br>
-      <title>Experiencia</title>
-      <li class="fs-4">Titulo del puesto</li>
-      <li class="fs-4" > Descripción</li> <br>
-
-      <h3 style="border: 1px solid greenyellow">  EDUCACION</h3> <br>      
-    </div>
-
-    <div id="formacion">
-      <h3>Formacion Académica</h3>
-     </div>
-    
-    </section>
-
-  </section>
-  <!--tarjetas educacion-->
-  <section>
-
-  <div class="card-group" style="width: 30%;">
-    <div class="card">
-      <img src="assets/IMG/unc.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Universidad Nacional De Cordoba</h5>
-        <p class="card-text">- Licenciatura en Cine y Television <br> Incompleto</p>
+</section>
+<br> <br>
+<!--Cuadro info-->
+<section>
+<div class="container">
+  
+  <div class="row">
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <div class="fa-3x">
+          <i class="fa-solid fa-sync fa-spin"></i>
+        </div>        
+        <div class="card-body">
+          <h5 class="card-title">Educacion</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
-    </div>
-    <div class="card">
-      <img src="assets/IMG/cba.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Municipalidad de Cordoba</h5>
-        <p class="card-text">- Curso - Creador de contenido para Redes <br> Completo
-       
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">An item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          
+        </div>
       </div>      
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <div class="fa-3x">
+          <i class="fa-solid fa-sync fa-spin"></i>
+        </div>        
+        <div class="card-body">
+          <h5 class="card-title">Skills</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">An item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+        </ul>
+        <div class="card-body">
+          <a href="https://google.com" target="_blank" class="card-link">Google</a>
+          
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <div class="fa-3x">
+          <i class="fa-solid fa-sync fa-spin"></i>
+        </div>
+                <div class="card-body">
+          <h5 class="card-title">Experencia</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">An item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          
+        </div>
+      </div>
+    </div>
     
   </div>
+</div>
 </section>
+
+  
 
 
 

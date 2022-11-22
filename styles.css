@@ -1,8 +1,8 @@
-*{ background-color: hsl(0, 0%, 0%); 
+*{ background-color: rgb(0, 0, 0); 
     margin-left: 2px;
     margin-top: 0%;
-   font-family: Helvetica;
-   color:rgb(41, 65, 77)   
+   font-family:'Courier New', Courier, monospace;
+   color:rgb(141, 49, 153);   
    
     }
     
@@ -28,22 +28,16 @@ div#banner{
     text-align: center;    
 }
 body{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     margin: 2px;
     
 }
 h1 {
     font-family: "Consolas", monospace;
     text-align: center;
-     }
-#container h3{
-    border: 1px solid #c533b2;    
-    margin: 15px;     
-    width: 400px;
-    text-align: center;
-    box-shadow: 2px 2px 7px 1px #37b0ce;
-    border-radius: 5px;
-}
+    
+  }
+
 #bibi-battery-charging{
     font-weight: 50px;
     }
@@ -60,4 +54,8 @@ margin-left: 30px;
 
 div.class.card{
     max-width: 30%;
+}
+.col {
+ display: inline-block; 
+ padding-top: 100px;
 }
